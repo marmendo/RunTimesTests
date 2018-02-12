@@ -1,0 +1,39 @@
+#!/usr/bin/bash
+
+cd `dirname $0`
+HERE=`pwd`
+JMDIR=./apache-jmeter-3.3
+
+function fMain {
+
+   # Parameters
+   # $1 application folder name
+   # $2 string to locate process
+
+   echo "================================="
+   echo "$1"
+   echo "================================="
+   gnome-terminal --working-directory="$HERE/$1" -- "./run" > /dev/null 2>&1
+
+   # allow the process to start
+   sleep 4
+
+   PIDS=$(ps -ef | grep $2 | grep -v grep | tr -s ' ' | cut -f2 -d' ')
+
+   $JMDIR/run $1
+
+   echo "                  Kbytes     RSS   Dirty              "
+   pmap -x $PIDS | grep total
+
+   kill $PIDS
+}
+
+# Run load tests
+
+fMain vertx-test my-first-vertx-app
+fMain spring-boot-test Sample-1.jar
+fMain wildfly-swarm-test demo-swarm.jar
+fMain jboss-eap-test jboss-modules.jar
+fMain node-test node-simple.js
+
+

@@ -1,0 +1,76 @@
+=================================
+vertx-test
+=================================
+VertX: Time on the server is 2018-01-31T04:52:11.616
+Creating summariser <summary>
+Created the tree successfully using ./Tests/SimpleHttp-speedtest.jmx
+Starting the test @ Wed Jan 31 04:52:12 CET 2018 (1517370732395)
+Waiting for possible Shutdown/StopTestNow/Heapdump message on port 4445
+summary = 100000 in 00:00:08 = 11892,0/s Avg:     0 Min:     0 Max:    19 Err:     0 (0,00%)
+Tidying up ...    @ Wed Jan 31 04:52:21 CET 2018 (1517370741084)
+... end of run
+                  Kbytes     RSS   Dirty              
+total kB         2940048  123568  104288
+=================================
+spring-boot-test
+=================================
+SpringBoot: Time on the server is 2018-01-31T04:52:25.645
+Creating summariser <summary>
+Created the tree successfully using ./Tests/SimpleHttp-speedtest.jmx
+Starting the test @ Wed Jan 31 04:52:26 CET 2018 (1517370746441)
+Waiting for possible Shutdown/StopTestNow/Heapdump message on port 4445
+summary +   3492 in 00:00:03 = 1063,7/s Avg:     0 Min:     0 Max:    15 Err:     0 (0,00%) Active: 1 Started: 1 Finished: 0
+summary +  96508 in 00:00:15 = 6474,0/s Avg:     0 Min:     0 Max:    16 Err:     0 (0,00%) Active: 0 Started: 1 Finished: 1
+summary = 100000 in 00:00:18 = 5497,2/s Avg:     0 Min:     0 Max:    16 Err:     0 (0,00%)
+Tidying up ...    @ Wed Jan 31 04:52:44 CET 2018 (1517370764908)
+... end of run
+                  Kbytes     RSS   Dirty              
+total kB         3720716  228376  210468
+=================================
+wildfly-swarm-test
+=================================
+MicroProfile: Time on the server is 2018-01-31T04:52:49.601
+Creating summariser <summary>
+Created the tree successfully using ./Tests/SimpleHttp-speedtest.jmx
+Starting the test @ Wed Jan 31 04:52:50 CET 2018 (1517370770734)
+Waiting for possible Shutdown/StopTestNow/Heapdump message on port 4445
+summary +  88309 in 00:00:09 = 9865,8/s Avg:     0 Min:     0 Max:    18 Err:     0 (0,00%) Active: 1 Started: 1 Finished: 0
+summary +  11691 in 00:00:01 = 11361,5/s Avg:     0 Min:     0 Max:     8 Err:     0 (0,00%) Active: 0 Started: 1 Finished: 1
+summary = 100000 in 00:00:10 = 10019,0/s Avg:     0 Min:     0 Max:    18 Err:     0 (0,00%)
+Tidying up ...    @ Wed Jan 31 04:53:01 CET 2018 (1517370781030)
+... end of run
+                  Kbytes     RSS   Dirty              
+total kB         3807940  258516  240544
+=================================
+jboss-eap-test
+=================================
+JEE Servlet: Time on the server is 2018-01-31T04:53:05.615
+
+Creating summariser <summary>
+Created the tree successfully using ./Tests/SimpleHttp-speedtest.jmx
+Starting the test @ Wed Jan 31 04:53:06 CET 2018 (1517370786496)
+Waiting for possible Shutdown/StopTestNow/Heapdump message on port 4445
+summary = 100000 in 00:00:11 = 8924,6/s Avg:     0 Min:     0 Max:    89 Err:     0 (0,00%)
+Tidying up ...    @ Wed Jan 31 04:53:18 CET 2018 (1517370798003)
+... end of run
+                  Kbytes     RSS   Dirty              
+total kB         3943980  285760  257644
+=================================
+node-test
+=================================
+NodeJS. Time on the server is 2018:01:31:04:53:22:536
+Creating summariser <summary>
+Created the tree successfully using ./Tests/SimpleHttp-speedtest.jmx
+Starting the test @ Wed Jan 31 04:53:23 CET 2018 (1517370803335)
+Waiting for possible Shutdown/StopTestNow/Heapdump message on port 4445
+summary +  32278 in 00:00:06 = 5070,4/s Avg:     0 Min:     0 Max:    21 Err:     0 (0,00%) Active: 1 Started: 1 Finished: 0
+summary +  67722 in 00:00:08 = 8316,6/s Avg:     0 Min:     0 Max:     6 Err:     0 (0,00%) Active: 0 Started: 1 Finished: 1
+summary = 100000 in 00:00:15 = 6892,3/s Avg:     0 Min:     0 Max:    21 Err:     0 (0,00%)
+Tidying up ...    @ Wed Jan 31 04:53:38 CET 2018 (1517370818143)
+... end of run
+                  Kbytes     RSS   Dirty              
+total kB          928524   33628   15428
+total kB          937764   53188   34612
+total kB          927468   33548   15352
+total kB          928484   34148   15880
+

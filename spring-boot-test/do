@@ -1,0 +1,3 @@
+./build
+echo "RUN?"; read key
+./run

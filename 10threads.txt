@@ -1,0 +1,88 @@
+=================================
+vertx-test
+=================================
+VertX: Time on the server is 2018-01-31T04:05:20.832
+Creating summariser <summary>
+Created the tree successfully using ./Tests/SimpleHttp-speedtest.jmx
+Starting the test @ Wed Jan 31 04:05:21 CET 2018 (1517367921647)
+Waiting for possible Shutdown/StopTestNow/Heapdump message on port 4445
+summary + 191562 in 00:00:08 = 23749,3/s Avg:     0 Min:     0 Max:    60 Err:     0 (0,00%) Active: 10 Started: 10 Finished: 0
+summary + 808438 in 00:00:19 = 41836,0/s Avg:     0 Min:     0 Max:    35 Err:     0 (0,00%) Active: 0 Started: 10 Finished: 10
+summary = 1000000 in 00:00:27 = 36508,3/s Avg:     0 Min:     0 Max:    60 Err:     0 (0,00%)
+Tidying up ...    @ Wed Jan 31 04:05:49 CET 2018 (1517367949325)
+... end of run
+                  Kbytes     RSS   Dirty              
+total kB         2940048  142040  122688
+=================================
+spring-boot-test
+=================================
+SpringBoot: Time on the server is 2018-01-31T04:05:54.068
+Creating summariser <summary>
+Created the tree successfully using ./Tests/SimpleHttp-speedtest.jmx
+Starting the test @ Wed Jan 31 04:05:54 CET 2018 (1517367954936)
+Waiting for possible Shutdown/StopTestNow/Heapdump message on port 4445
+summary +  12009 in 00:00:05 = 2519,2/s Avg:     3 Min:     0 Max:    73 Err:     0 (0,00%) Active: 10 Started: 10 Finished: 0
+summary + 485217 in 00:00:30 = 16173,9/s Avg:     0 Min:     0 Max:    85 Err:     0 (0,00%) Active: 10 Started: 10 Finished: 0
+summary = 497226 in 00:00:35 = 14301,7/s Avg:     0 Min:     0 Max:    85 Err:     0 (0,00%)
+summary + 502774 in 00:00:26 = 19140,9/s Avg:     0 Min:     0 Max:    45 Err:     0 (0,00%) Active: 0 Started: 10 Finished: 10
+summary = 1000000 in 00:01:01 = 16384,3/s Avg:     0 Min:     0 Max:    85 Err:     0 (0,00%)
+Tidying up ...    @ Wed Jan 31 04:06:56 CET 2018 (1517368016267)
+... end of run
+                  Kbytes     RSS   Dirty              
+total kB         3790752  242200  224484
+=================================
+wildfly-swarm-test
+=================================
+MicroProfile: Time on the server is 2018-01-31T04:07:01.019
+Creating summariser <summary>
+Created the tree successfully using ./Tests/SimpleHttp-speedtest.jmx
+Starting the test @ Wed Jan 31 04:07:02 CET 2018 (1517368022043)
+Waiting for possible Shutdown/StopTestNow/Heapdump message on port 4445
+summary +      1 in 00:00:00 =   14,5/s Avg:    17 Min:    17 Max:    17 Err:     0 (0,00%) Active: 10 Started: 10 Finished: 0
+summary + 699856 in 00:00:28 = 25378,2/s Avg:     0 Min:     0 Max:    48 Err:     0 (0,00%) Active: 10 Started: 10 Finished: 0
+summary = 699857 in 00:00:28 = 25314,9/s Avg:     0 Min:     0 Max:    48 Err:     0 (0,00%)
+summary + 300143 in 00:00:12 = 25914,6/s Avg:     0 Min:     0 Max:    34 Err:     0 (0,00%) Active: 0 Started: 10 Finished: 10
+summary = 1000000 in 00:00:39 = 25492,0/s Avg:     0 Min:     0 Max:    48 Err:     0 (0,00%)
+Tidying up ...    @ Wed Jan 31 04:07:41 CET 2018 (1517368061582)
+... end of run
+                  Kbytes     RSS   Dirty              
+total kB         3808236  261256  243204
+=================================
+jboss-eap-test
+=================================
+JEE Servlet: Time on the server is 2018-01-31T04:07:46.206
+
+Creating summariser <summary>
+Created the tree successfully using ./Tests/SimpleHttp-speedtest.jmx
+Starting the test @ Wed Jan 31 04:07:47 CET 2018 (1517368067119)
+Waiting for possible Shutdown/StopTestNow/Heapdump message on port 4445
+summary + 178029 in 00:00:13 = 14170,9/s Avg:     0 Min:     0 Max:   143 Err:     0 (0,00%) Active: 10 Started: 10 Finished: 0
+summary + 821971 in 00:00:30 = 27570,0/s Avg:     0 Min:     0 Max:    36 Err:     0 (0,00%) Active: 0 Started: 10 Finished: 10
+summary = 1000000 in 00:00:42 = 23597,7/s Avg:     0 Min:     0 Max:   143 Err:     0 (0,00%)
+Tidying up ...    @ Wed Jan 31 04:08:29 CET 2018 (1517368109815)
+... end of run
+                  Kbytes     RSS   Dirty              
+total kB         3920868  289704  261424
+=================================
+node-test
+=================================
+NodeJS. Time on the server is 2018:01:31:04:08:34:416
+Creating summariser <summary>
+Created the tree successfully using ./Tests/SimpleHttp-speedtest.jmx
+Starting the test @ Wed Jan 31 04:08:35 CET 2018 (1517368115274)
+Waiting for possible Shutdown/StopTestNow/Heapdump message on port 4445
+summary +      1 in 00:00:00 =   12,3/s Avg:    36 Min:    36 Max:    36 Err:     0 (0,00%) Active: 10 Started: 10 Finished: 0
+summary + 310875 in 00:00:24 = 12775,9/s Avg:     0 Min:     0 Max:    45 Err:     0 (0,00%) Active: 10 Started: 10 Finished: 0
+summary = 310876 in 00:00:24 = 12733,5/s Avg:     0 Min:     0 Max:    45 Err:     0 (0,00%)
+summary + 391522 in 00:00:30 = 13050,7/s Avg:     0 Min:     0 Max:    33 Err:     0 (0,00%) Active: 10 Started: 10 Finished: 0
+summary = 702398 in 00:00:54 = 12908,4/s Avg:     0 Min:     0 Max:    45 Err:     0 (0,00%)
+summary + 297602 in 00:00:21 = 13888,5/s Avg:     0 Min:     0 Max:    49 Err:     0 (0,00%) Active: 0 Started: 10 Finished: 10
+summary = 1000000 in 00:01:16 = 13185,1/s Avg:     0 Min:     0 Max:    49 Err:     0 (0,00%)
+Tidying up ...    @ Wed Jan 31 04:09:51 CET 2018 (1517368191429)
+... end of run
+                  Kbytes     RSS   Dirty              
+total kB          928788   37384   18824
+total kB          956804   71748   53144
+total kB          956716   71248   52700
+total kB          956776   71136   52604
+

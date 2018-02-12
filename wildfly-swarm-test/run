@@ -1,0 +1,2 @@
+#xdg-open http://localhost:8080/SimpleHttp/speedtest
+java -Xms32m -Xmx128m -XX:MetaspaceSize=16m -XX:MaxMetaspaceSize=256m -jar ./target/demo-swarm.jar

@@ -1,0 +1,3 @@
+mvn clean install wildfly:deploy -s /home/marmendo/Software/JBoss_EAP7.1/settings.xml
+#cp ./target/SimpleServlet-1.war /home/marmendo/Software/JBoss_EAP7.1/jboss-eap-7.1/standalone/deployments
+echo http://localhost:8080/SimpleHttp/speedtest

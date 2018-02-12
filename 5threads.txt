@@ -1,0 +1,80 @@
+=================================
+vertx-test
+=================================
+VertX: Time on the server is 2018-01-31T04:01:27.214
+Creating summariser <summary>
+Created the tree successfully using ./Tests/SimpleHttp-speedtest.jmx
+Starting the test @ Wed Jan 31 04:01:28 CET 2018 (1517367688020)
+Waiting for possible Shutdown/StopTestNow/Heapdump message on port 4445
+summary +   8243 in 00:00:02 = 4840,3/s Avg:     0 Min:     0 Max:    17 Err:     0 (0,00%) Active: 5 Started: 5 Finished: 0
+summary + 491757 in 00:00:13 = 37824,6/s Avg:     0 Min:     0 Max:    32 Err:     0 (0,00%) Active: 0 Started: 5 Finished: 5
+summary = 500000 in 00:00:15 = 34002,0/s Avg:     0 Min:     0 Max:    32 Err:     0 (0,00%)
+Tidying up ...    @ Wed Jan 31 04:01:43 CET 2018 (1517367703002)
+... end of run
+                  Kbytes     RSS   Dirty              
+total kB         2940048  141652  122264
+=================================
+spring-boot-test
+=================================
+SpringBoot: Time on the server is 2018-01-31T04:01:47.680
+Creating summariser <summary>
+Created the tree successfully using ./Tests/SimpleHttp-speedtest.jmx
+Starting the test @ Wed Jan 31 04:01:48 CET 2018 (1517367708528)
+Waiting for possible Shutdown/StopTestNow/Heapdump message on port 4445
+summary +  61248 in 00:00:11 = 5483,3/s Avg:     0 Min:     0 Max:    60 Err:     0 (0,00%) Active: 5 Started: 5 Finished: 0
+summary + 438752 in 00:00:24 = 18310,3/s Avg:     0 Min:     0 Max:    39 Err:     0 (0,00%) Active: 0 Started: 5 Finished: 5
+summary = 500000 in 00:00:35 = 14232,0/s Avg:     0 Min:     0 Max:    60 Err:     0 (0,00%)
+Tidying up ...    @ Wed Jan 31 04:02:23 CET 2018 (1517367743963)
+... end of run
+                  Kbytes     RSS   Dirty              
+total kB         3764024  234228  216408
+=================================
+wildfly-swarm-test
+=================================
+MicroProfile: Time on the server is 2018-01-31T04:02:28.641
+Creating summariser <summary>
+Created the tree successfully using ./Tests/SimpleHttp-speedtest.jmx
+Starting the test @ Wed Jan 31 04:02:29 CET 2018 (1517367749690)
+Waiting for possible Shutdown/StopTestNow/Heapdump message on port 4445
+summary +      1 in 00:00:00 =   17,9/s Avg:    14 Min:    14 Max:    14 Err:     0 (0,00%) Active: 5 Started: 5 Finished: 0
+summary + 499999 in 00:00:18 = 27416,7/s Avg:     0 Min:     0 Max:    35 Err:     0 (0,00%) Active: 0 Started: 5 Finished: 5
+summary = 500000 in 00:00:18 = 27331,4/s Avg:     0 Min:     0 Max:    35 Err:     0 (0,00%)
+Tidying up ...    @ Wed Jan 31 04:02:48 CET 2018 (1517367768298)
+... end of run
+                  Kbytes     RSS   Dirty              
+total kB         3807940  253468  235432
+=================================
+jboss-eap-test
+=================================
+JEE Servlet: Time on the server is 2018-01-31T04:02:52.916
+
+Creating summariser <summary>
+Created the tree successfully using ./Tests/SimpleHttp-speedtest.jmx
+Starting the test @ Wed Jan 31 04:02:53 CET 2018 (1517367773836)
+Waiting for possible Shutdown/StopTestNow/Heapdump message on port 4445
+summary +  57659 in 00:00:06 = 9847,8/s Avg:     0 Min:     0 Max:   144 Err:     0 (0,00%) Active: 5 Started: 5 Finished: 0
+summary + 442341 in 00:00:14 = 32254,7/s Avg:     0 Min:     0 Max:    22 Err:     0 (0,00%) Active: 0 Started: 5 Finished: 5
+summary = 500000 in 00:00:20 = 25550,6/s Avg:     0 Min:     0 Max:   144 Err:     0 (0,00%)
+Tidying up ...    @ Wed Jan 31 04:03:13 CET 2018 (1517367793714)
+... end of run
+                  Kbytes     RSS   Dirty              
+total kB         3920348  283320  255076
+=================================
+node-test
+=================================
+NodeJS. Time on the server is 2018:01:31:04:03:18:322
+Creating summariser <summary>
+Created the tree successfully using ./Tests/SimpleHttp-speedtest.jmx
+Starting the test @ Wed Jan 31 04:03:19 CET 2018 (1517367799140)
+Waiting for possible Shutdown/StopTestNow/Heapdump message on port 4445
+summary + 109315 in 00:00:11 = 10345,9/s Avg:     0 Min:     0 Max:    37 Err:     0 (0,00%) Active: 5 Started: 5 Finished: 0
+summary + 390685 in 00:00:29 = 13647,9/s Avg:     0 Min:     0 Max:    12 Err:     0 (0,00%) Active: 0 Started: 5 Finished: 5
+summary = 500000 in 00:00:39 = 12757,7/s Avg:     0 Min:     0 Max:    37 Err:     0 (0,00%)
+Tidying up ...    @ Wed Jan 31 04:03:58 CET 2018 (1517367838626)
+... end of run
+                  Kbytes     RSS   Dirty              
+total kB          928464   33524   15324
+total kB          939440   53988   35504
+total kB          938208   54224   35536
+total kB          938780   53336   34812
+

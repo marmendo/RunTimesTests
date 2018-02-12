@@ -1,0 +1,2 @@
+source ../env.sh
+mvn clean package -s ${REPO_BASE}/settings.xml

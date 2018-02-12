@@ -1,0 +1,163 @@
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
+
+    <profiles>
+        <!-- Configure the WildFly Swarm Maven repository -->
+        <profile>
+            <id>swarm-repository</id>
+            <repositories>
+                <repository>
+                    <id>swarm-repository</id>
+                    <url>file://${env.REPO_BASE}/rhoar-wildfly-swarm-7.0.0.GA-repository/maven-repository</url>
+                    <releases>
+                        <enabled>true</enabled>
+                    </releases>
+                    <snapshots>
+                        <enabled>false</enabled>
+                    </snapshots>
+                </repository>
+            </repositories>
+            <pluginRepositories>
+                <pluginRepository>
+                    <id>swarm-repository</id>
+                    <url>file://${env.REPO_BASE}/rhoar-wildfly-swarm-7.0.0.GA-repository/maven-repository</url>
+                    <releases>
+                        <enabled>true</enabled>
+                    </releases>
+                    <snapshots>
+                        <enabled>false</enabled>
+                    </snapshots>
+                </pluginRepository>
+            </pluginRepositories>
+        </profile>
+
+
+        <!-- Configure the Vert.x Maven repository -->
+        <profile>
+            <id>vertx-repository</id>
+            <repositories>
+                <repository>
+                    <id>vertx-repository</id>
+                    <url>file://${env.REPO_BASE}/rhoar-vertx-3.4.2.GA-maven-repository/maven-repository</url>
+                    <releases>
+                        <enabled>true</enabled>
+                    </releases>
+                    <snapshots>
+                        <enabled>false</enabled>
+                    </snapshots>
+                </repository>
+            </repositories>
+            <pluginRepositories>
+                <pluginRepository>
+                    <id>vertx-repository</id>
+                    <url>file://${env.REPO_BASE}/rhoar-vertx-3.4.2.GA-maven-repository/maven-repository</url>
+                    <releases>
+                        <enabled>true</enabled>
+                    </releases>
+                    <snapshots>
+                        <enabled>false</enabled>
+                    </snapshots>
+                </pluginRepository>
+            </pluginRepositories>
+        </profile>
+
+
+        <!-- Configure the Spring Boot Maven repository -->
+        <profile>
+          <id>rhoar-spring-boot-1.5.8.GA-maven-repository</id>
+          <repositories>
+            <repository>
+              <id>rhoar-spring-boot-1.5.8.GA-maven-repository</id>
+              <url>file://${env.REPO_BASE}/rhoar-spring-boot-1.5.8.GA-maven-repository/maven-repository</url>
+              <releases>
+                <enabled>true</enabled>
+              </releases>
+              <snapshots>
+                <enabled>false</enabled>
+              </snapshots>
+            </repository>
+          </repositories>
+          <pluginRepositories>
+            <pluginRepository>
+              <id>rhoar-spring-boot-1.5.8.GA-maven-repository</id>
+              <url>file://${env.REPO_BASE}/rhoar-spring-boot-1.5.8.GA-maven-repository/maven-repository</url>
+              <releases>
+                <enabled>true</enabled>
+              </releases>
+              <snapshots>
+                <enabled>false</enabled>
+              </snapshots>
+            </pluginRepository>
+          </pluginRepositories>
+        </profile>
+
+        <!-- Configure the JBoss GA Maven repository -->
+        <profile>
+            <id>jboss-ga-repository</id>
+            <repositories>
+                <repository>
+                    <id>jboss-ga-repository</id>
+                    <url>http://maven.repository.redhat.com/ga</url>
+                    <releases>
+                        <enabled>true</enabled>
+                    </releases>
+                    <snapshots>
+                        <enabled>false</enabled>
+                    </snapshots>
+                </repository>
+            </repositories>
+            <pluginRepositories>
+                <pluginRepository>
+                    <id>jboss-ga-repository</id>
+                    <url>http://maven.repository.redhat.com/ga</url>
+                    <releases>
+                        <enabled>true</enabled>
+                    </releases>
+                    <snapshots>
+                        <enabled>false</enabled>
+                    </snapshots>
+                </pluginRepository>
+            </pluginRepositories>
+        </profile>
+
+        <!-- Configure the JBoss Early Access Maven repository -->
+        <profile>
+            <id>jboss-earlyaccess-repository</id>
+            <repositories>
+                <repository>
+                    <id>jboss-earlyaccess-repository</id>
+                    <url>http://maven.repository.redhat.com/earlyaccess/all/</url>
+                    <releases>
+                        <enabled>true</enabled>
+                    </releases>
+                    <snapshots>
+                        <enabled>false</enabled>
+                    </snapshots>
+                </repository>
+            </repositories>
+            <pluginRepositories>
+                <pluginRepository>
+                    <id>jboss-earlyaccess-repository</id>
+                    <url>http://maven.repository.redhat.com/earlyaccess/all/</url>
+                    <releases>
+                        <enabled>true</enabled>
+                    </releases>
+                    <snapshots>
+                        <enabled>false</enabled>
+                    </snapshots>
+                </pluginRepository>
+            </pluginRepositories>
+        </profile>
+    </profiles>
+
+    <activeProfiles>
+        <!-- Optionally, make the repository active by default -->
+        <activeProfile>swarm-repository</activeProfile>
+        <activeProfile>vertx-repository</activeProfile>
+        <activeProfile>rhoar-spring-boot-1.5.8.GA-maven-repository</activeProfile>
+        <!--activeProfile>jboss-ga-repository</activeProfile>
+        <activeProfile>jboss-earlyaccess-repository</activeProfile-->
+    </activeProfiles>
+
+</settings>

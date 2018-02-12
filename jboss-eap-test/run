@@ -1,0 +1,8 @@
+
+cd `dirname $0`
+HERE=`pwd`
+
+cd jboss-eap-7.1/bin
+./standalone.sh
+cd $HERE
+

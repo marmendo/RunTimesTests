@@ -1,0 +1,2 @@
+echo http://localhost:8080/SimpleHttp/speedtest
+node --max-old-space-size=256 node-simple.js
